@@ -1,39 +1,18 @@
-/* funções
-function gasolina(distanciaPercorridaKm, kmPorLitros){
-    return distanciaPercorridaKm / kmPorLitros;
-}
-function gastos(combustivelUtilizado, precoCombustivel){
-    return combustivelUtilizado * precoCombustivel;
-}
-(function main(){
-    const precoCombustivel = 10;
-    let kmPorLitros = 10;
-    let distanciaPercorridaKm = 100;
-    
-    let combustivelUtilizado = gasolina(distanciaPercorridaKm, kmPorLitros);
 
-    console.log("voce gastou:", gastos(combustivelUtilizado, precoCombustivel).toFixed(2), "reais");
-})();
-*/
+const notas = [];
+notas.push(5);
+notas.push(7);
+notas.push(8);
+notas.push(2);
+notas.push(5);
+notas.push(8);
 
-//classe e objetos(poo)
-/*
-class pessoa {
-    nome;
-    idade;
+let soma = 0;
 
-    constructor(nome, idade){
-        this.nome = nome;
-        this.idade = idade;
-    }
-
-    descrever(){
-        console.log(`nome: ${this.nome}, idade: ${this.idade}`);
-    }
+for (let i = 0; i < notas.length; i++) {
+    let nota = notas[i];
+    soma = soma + nota;
 }
 
-const vitor = new pessoa("costa", 15);
-const thiago = new pessoa("mota", 21);
-vitor.descrever();
-thiago.descrever();
-*/
+let media = soma / notas.length;
+console.log(media.toFixed(2));
