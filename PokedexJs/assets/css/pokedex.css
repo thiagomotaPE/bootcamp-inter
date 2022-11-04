@@ -65,7 +65,9 @@
 
 
 
-
+.pokemonList .linkPokemonDetail{
+    text-decoration: none;
+}
 .pokemon{
     margin: .5rem;
     padding: 2rem 1rem;
