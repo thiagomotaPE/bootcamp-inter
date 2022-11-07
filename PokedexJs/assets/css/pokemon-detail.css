@@ -17,7 +17,7 @@ header{
     text-transform: capitalize;
     padding: 20px;
 }
-.pokemonDetails .detail{
+#pokemonDetails .detail{
     color: #fff;
     padding: .25rem 1rem;
     margin: .25rem 2rem;
@@ -28,16 +28,16 @@ header{
     filter: brightness(1.1);
     width: 80px;
 }
-.pokemonImg {
+#pokemonImg {
     display: flex;
     justify-content: center;
     margin: 25px;
 }
-.pokemonDescription{
+#pokemonDescription{
     display: flex;
     justify-content: center;
 }
-.pokemonDescription .listDetails{
+#pokemonDescription .listDetails{
     background-color: #fff;
     color: black;
 
@@ -48,7 +48,7 @@ header{
 
     list-style: none;
 }
-.pokemonDescription .listDetails li{
+#pokemonDescription .listDetails li{
     margin: 20px;
     padding: 16px;
 }

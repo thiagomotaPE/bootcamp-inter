@@ -25,36 +25,38 @@
     </section>
 
     <!--Nome e identificador do pokemon-->
-    <header>
-        <h1>Charizard</h1>
-        <span>#006</span>
-    </header>
-
-    <!--tipos do pokemon-->
-    <section class="pokemonDetails">
-        <p class="detail">fire</p>
-        <p class="detail">flying</p>
-    </section>
-
-    <!--foto do pokemon-->
-    <section class="pokemonImg">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg" alt="imagem-do-pokemon">
-    </section>
-
-    <!--descrição detalhada do pokemon-->
-    <section class="pokemonDescription">
-        <ol class="listDetails">
-            <li>Species</li>
-            <li>Height</li>
-            <li>Weight</li>
-            <li>Abilities</li>
-        </ol>
-    </section>
+    <div id="pokemonInformation">
+        <header id="pokemonId">
+            <h1>Charizard</h1>
+            <span>#006</span>
+        </header>
+        <!--tipos do pokemon-->
+        <section id="pokemonDetails">
+            <p class="detail">fire</p>
+            <p class="detail">flying</p>
+        </section>
+        <!--foto do pokemon-->
+        <section id="pokemonImg">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg" alt="imagem-do-pokemon">
+        </section>
+        <!--descrição detalhada do pokemon-->
+        <section id="pokemonDescription">
+            <ol class="listDetails">
+                <li>Species</li>
+                <li>Height</li>
+                <li>Weight</li>
+                <li>Abilities</li>
+            </ol>
+        </section>
+    </div>
 
     <footer>
         <p>Thiago Mota</p>
     </footer>
     
-    
+    <!--arquivos js-->
+    <script src="assets/js/pokemon-model.js"></script>
+    <script src="assets/js/poke-api.js"></script>
+    <script src="assets/js/pokemon-details.js"></script>
 </body>
 </html>
