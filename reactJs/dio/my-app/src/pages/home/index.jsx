@@ -1,5 +1,5 @@
-// import {Link} from 'react-router-dom';
-// import { Button } from '../../components/Button';
+//import {Link} from 'react-router-dom';
+import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import Banner from '../../assets/banner.png';
 import { 
@@ -8,7 +8,6 @@ import {
     TitleHighlight,
     TextContent
 } from './styles';
-import { Button } from '../../components/Button';
 
 
 const Home = () => {
