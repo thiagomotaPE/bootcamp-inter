@@ -2,6 +2,7 @@ import styled from "styled-components";
 
  export const InputContainer = styled.div`
     width: 100%;
+    margin-top: 15px;
     max-width: 275px;
     height: 30px;
     border-bottom: 1px solid #3B3450;
@@ -18,7 +19,7 @@ import styled from "styled-components";
  export const InputText = styled.input`
     background-color: transparent;
     color: #fff;
-    width: 100%
+    width: 100%;
     border: 0;
     height: 30px;
  `

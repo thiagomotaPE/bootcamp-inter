@@ -1,6 +1,6 @@
 import { Button } from '../../components/Button';
-import { Input } from '../../components/Input';
 import { Header } from '../../components/Header';
+import { Input } from '../../components/Input';
 import { 
     Column,
     Container,
@@ -12,7 +12,6 @@ import {
     TitleLogin,
     Wrapper
 } from './styles';
-import { InputText } from '../../components/Input/styles';
 
 
 const Login = () => {
@@ -30,8 +29,8 @@ const Login = () => {
                     <TitleLogin>Faça seu cadastro</TitleLogin>  
                     <SubTitleLogin>Faça seu login e make the change._</SubTitleLogin>
                     <form>
-                        {/* <Input placeholder='E-mail'/>
-                        <Input placeholder='Senha' type='password'/> */}
+                        <Input placeholder="E-mail" />
+                        <Input placeholder="Senha" type="password" />
                         <Button title="Entrar" variant='secondary'></Button>
                     </form>
 
