@@ -1,3 +1,4 @@
+package edu.mota.primeirasemana;
 public class App {
     public static void main(String[] args) throws Exception {
         String primeiroNome = "thiago";
