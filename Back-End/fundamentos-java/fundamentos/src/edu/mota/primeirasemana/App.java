@@ -10,4 +10,8 @@ public class App {
     public static String nomeCompleto (String primeiroNome, String SegundoNome){
         return primeiroNome.concat(" ").concat(SegundoNome);
     }
+
+    //obs: constantes em java se de claram da seguinte forma:
+    // final EXEMPLO_CONST = "constante"
+    //(com o "final" no inicio e com o nome da variavel escrito em UPPER CASE)
 }
