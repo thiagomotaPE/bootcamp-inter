@@ -3,17 +3,17 @@ package Poo;
 public class Carro {
 
     //atributos da classe
-    private String cor;
-    private String modelo;
-    private int capacidadeTanque;
+     private String cor;
+     private String modelo;
+     private double capacidadeTanque;
 
 
     //metodo construtor (tem oo mesmo nome que a classe)
 
     Carro() {
-        
+
     }
-    Carro(String cor, String modelo, int capacidadeTanque) {
+    Carro(String cor, String modelo, double capacidadeTanque) {
         this.cor = cor;
         this.modelo = modelo;
         this.capacidadeTanque = capacidadeTanque;
@@ -43,11 +43,11 @@ public class Carro {
         this.modelo = modelo;
     }
 
-    public int getCapacidadeTaque() {
+    public double getCapacidadeTaque() {
         return capacidadeTanque;
     }
 
-    public void setCapacidadeTaque(int capacidadeTanque) {
+    public void setCapacidadeTaque(double capacidadeTanque) {
         this.capacidadeTanque = capacidadeTanque;
     }
 }
