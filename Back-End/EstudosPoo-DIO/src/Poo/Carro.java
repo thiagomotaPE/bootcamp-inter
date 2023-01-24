@@ -6,9 +6,13 @@ public class Carro {
     private String cor;
     private String modelo;
     private int capacidadeTanque;
-    
+
 
     //metodo construtor (tem oo mesmo nome que a classe)
+
+    Carro() {
+        
+    }
     Carro(String cor, String modelo, int capacidadeTanque) {
         this.cor = cor;
         this.modelo = modelo;
