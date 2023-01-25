@@ -1,4 +1,4 @@
 package edu;
 
-public class Faxineiro {
+public class Faxineiro extends Funcionario {
 }

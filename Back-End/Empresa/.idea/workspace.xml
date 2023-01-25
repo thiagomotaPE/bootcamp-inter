@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f8f6aac6-90a0-45af-935b-01a5a4efb942" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Empresa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/Faxineiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Faxineiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Faxineiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Vendedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KpkJA3CfArLmeMPpYvuf0qpNdC" />
   <component name="ProjectViewState">
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674678843772</updated>
-      <workItem from="1674678845163" duration="327000" />
+      <workItem from="1674678845163" duration="646000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
 package edu;
 
-public class Vendedor {
+public class Vendedor extends Funcionario {
 }

@@ -2,6 +2,12 @@ package edu;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Funcionario funcionario = new Funcionario();
+
+        Funcionario gerente = new Gerente();
+
+
+
     }
 }
