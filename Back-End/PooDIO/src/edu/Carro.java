@@ -1,6 +1,6 @@
 package edu;
 
-public class Carro {
+public class Carro extends Veiculo {
 
     //atributos da classe
     private String cor;
