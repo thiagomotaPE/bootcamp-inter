@@ -1,11 +1,11 @@
-package Poo;
+package edu;
 
 public class Carro {
 
     //atributos da classe
-     private String cor;
-     private String modelo;
-     private double capacidadeTanque;
+    private String cor;
+    private String modelo;
+    private double capacidadeTanque;
 
 
     //metodo construtor (tem oo mesmo nome que a classe)
