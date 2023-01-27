@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class Main {
@@ -49,5 +50,34 @@ public class Main {
 
         //mostrando a maior nota da lista
         System.out.println("exiba a maior nota: " + Collections.max(notas));
+
+        //mostrando a soma de todos os elementos da lista
+        System.out.println("exiba a soma de todas as notas: ");
+        Iterator<Double> iterator = notas.iterator();
+        Double soma = 00.0;
+        while(iterator.hasNext()) {
+            Double next = iterator.next();
+            soma += next;
+        }
+        System.out.println(soma);
+
+        //mostrando a media das notas da lista
+        System.out.println("media das notas: " + (soma/notas.size()));
+
+        //removendo um elemento da lista
+        notas.remove(0.0);
+        System.out.println(notas);
+
+        //removendo todas as notas menores que 7
+        Iterator<Double> iterator1 = notas.iterator();
+        //while(iterator1.hasNext()) {
+           // Double next = iterator.next();
+           // if(next < 7) iterator1.remove();
+        //}
+       // System.out.println(notas);
+
+        //apagando toda a lista
+        notas.clear();
+        System.out.println(notas.isEmpty());
     }
 }
